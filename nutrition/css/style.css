@@ -1,0 +1,82 @@
+body {
+	background: #2b2b2a;
+	color: whitesmoke;
+	font-family: "Franklin Gothic";
+}
+
+p {
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+#nutrition-header {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.inner-label {
+	height: 710px;
+	width: 35vw;
+	
+	border: 1px solid whitesmoke;
+	padding: 10px;
+
+	text-align: left;
+}
+
+.thin-hr {
+	height: 1px;
+	border: none;
+	color: lightgray;
+	background: lightgray;
+	margin: 3px;
+}
+
+.med-hr {
+	height: 4px;
+	border: none;
+	color: whitesmoke;
+	background: whitesmoke;
+	/*margin: 5px;*/
+}
+
+.thick-hr {
+	height: 10px;
+	border: none;
+	color: whitesmoke;
+	background: whitesmoke;
+}
+
+.numbers {
+	float: right;
+	font-weight: 600;
+}
+
+.calories-num {
+	font-size: 1.2em;
+	float: right;
+}
+
+.micro-numbers {
+	float: right;
+}
+
+#serving-info {
+	font-size: 1.2em;
+}
+
+#calories-title {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.italics {
+	font-style: italic;
+}
