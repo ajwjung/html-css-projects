@@ -1,5 +1,10 @@
 body {
-	background: rgb(179, 203, 227);	
+	background: rgb(21, 61, 115);
+	font-family: "Lato", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Robato Condensed", sans-serif;
 }
 
 #main {
@@ -11,10 +16,22 @@ body {
 .content {
 	grid-column: 1;
 	margin-right: 10px;
+	color: rgb(230, 230, 230);
 }
 
 .sidebar {
+	background: rgb(235, 134, 33);
+	color: rgb(50, 50, 50);
 	grid-column: 2;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar .post {
+	background: rgba(255, 255, 255, 0.75);
+	margin: 20px;
+	padding: 10px;
 }
 
 .image-grid {
@@ -66,3 +83,4 @@ body {
 	-moz-transition: transform 1.3s ease-in-out;
 	-o-transition: transform 1.3s ease-in-out;
 }
+
