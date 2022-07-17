@@ -7,6 +7,11 @@ h1, h2 {
 	font-family: "Robato Condensed", sans-serif;
 }
 
+a:hover {
+	color: rgb(21, 61, 115);
+	font-style: italic;
+}
+
 #main {
 	display: grid;
 	grid-template-columns: 70% 30%;
