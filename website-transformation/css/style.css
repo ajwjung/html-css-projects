@@ -33,3 +33,36 @@ body {
 .image-grid img:hover {
 	opacity: 0.7;
 }
+
+.para-1 {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: auto auto auto auto;
+	justify-content: start;
+}
+
+.para-1 .subtitle {
+	grid-row: 1;
+}
+
+.para-1 p {
+	grid-row: 3;
+	width: 85%;
+	margin-left: 15px;
+}
+
+.para-1 img {
+	width: 350px;
+	grid-row: 2 / span 3;
+	margin-left: 10px;
+}
+
+.para-1 img:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+
+	-webkit-transition: transform 1.3s ease-in-out;
+	-moz-transition: transform 1.3s ease-in-out;
+	-o-transition: transform 1.3s ease-in-out;
+}
